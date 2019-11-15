@@ -1,0 +1,14 @@
+.styledButton{
+	background-color: #ff9900;
+	color: #000000;
+	padding: 16px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.styled{
+	text-align: center;
+	font-size: 75px;
+	border: 15px solid black;
+}
+

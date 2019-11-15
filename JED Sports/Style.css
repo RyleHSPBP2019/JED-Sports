@@ -1,0 +1,43 @@
+.menuButton{
+	background-color: #ff9900;
+	color: #000000;
+	padding: 16px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.styled{
+	text-align: center;
+	font-size: 75px;
+	border: 15px solid black;
+}
+
+.menuButton:hover, .menuButton:focus{
+	background-color: #000000;
+	color: #ff9900;
+}
+
+.dropDown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropDown-Content{
+	display: none;
+	position: absolute;
+	background-color: #ff9900;
+	min-width: 24px;
+}
+
+.dropDown-Content a{
+	color: #ff9900;
+	padding: 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropDown-Content a:hover {background-color: #000000}
+
+.show {display:block;}
+
+header {font-family: rosewood std regular; background-color: #ffa64d}
